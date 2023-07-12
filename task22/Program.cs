@@ -19,8 +19,7 @@ void Square(int numN)
 int GetInfo(string message)
 {
     Console.Write(message);
-    int inputNumber = Convert.ToInt32(Console.ReadLine());
-    return inputNumber;
+    return Convert.ToInt32(Console.ReadLine());
 }
 
 int numN = GetInfo("Введите число: ");
